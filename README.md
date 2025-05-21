@@ -1,7 +1,7 @@
 # go-viacep
 Consulta de CEPs usando a API ViaCEP em Go
 
-A aplicação cria um struct chamado Endereço, que define os campos que o ViaCEP retorna e extrai o parâmetro CEP da query usada para teste.
+A aplicação cria um struct chamado Endereco, que define os campos que o ViaCEP retorna e extrai o parâmetro CEP da query usada para teste.
 
 Se o CEP não for informado, na query de teste, é retornado um erro para o usuário.
 
