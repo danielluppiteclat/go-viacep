@@ -8,6 +8,7 @@ import (
 	"net/http"
 )
 
+// comentário 1
 // Endereco representa os dados retornados pelo ViaCEP.
 type Endereco struct {
 	Cep         string `json:"cep"`
