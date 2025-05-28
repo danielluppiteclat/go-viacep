@@ -18,7 +18,7 @@ type Endereco struct {
 	Uf          string `json:"uf"`
 }
 
-// comentário 1 corrigido
+// comentário 1
 // cepHandler trata as requisições para consulta de CEP.
 func cepHandler(w http.ResponseWriter, r *http.Request) {
 	// Extrai o CEP a partir dos parâmetros da URL.
